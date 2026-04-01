@@ -10,13 +10,17 @@
 <body>
     <header>
         <a class="logo" href="index.html" title="Voltar para a pagina inicial">
-            <img src="./img/Logo-jornada-branca 1.png" alt="Bussola do logo Jornada Viagens na cor preta...">
+            <img class="img-mobile" src="./img/Logo-jornada-branca 1.png" alt="Bussola do logo Jornada Viagens na cor preta...">
+            <img class="img-desktop" src="./img/logo-completa-branca.png" alt="Bussola do logo Jornada Viagens na cor preta...">
         </a>
 
         <div class="navigation-menu">
-            <img src="./img/menu.png" alt="menu">
+            <label for="menu">
+                <img src="./img/menu.png" alt="menu">
+            </label>
+            <input type="checkbox"id="menu" hidden>
             <nav>
-                <ul>
+                <ul class="list-links">
                     <li><a href="blog.html" target="_blank" title="acessar blog">Blog</a></li>
                     <li><a href="pacotes.html" target="_blank" title="acessar pacotes de viagem">Pacotes de viagem</a></li>
                     <li><a href="contato.html" target="_blank" title="acessar contatos">Contato</a></li>
