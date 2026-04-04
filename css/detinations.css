@@ -36,11 +36,11 @@
         width: 100%;
         height: 452px;
     }
-    .destinations .item.tokyo .img-item {
+    .destinations .item .tokyo .img-item {
         background: url(../img/tokyo-tablet-desk.jpg);
         background-size: cover;
     }
-    .destinations .item.osaka .img-item {
+    .destinations .item .osaka .img-item {
         background: url(../img/osaka-tablet-desk.jpg);
         background-size: cover;
     }
