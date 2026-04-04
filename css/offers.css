@@ -79,6 +79,10 @@
     text-align: center;
 }
 
+.categories {
+    margin-bottom: 80px;
+}
+
 .categories-cards {
     display: flex;
     flex-direction: column;
